@@ -1,0 +1,114 @@
+#skill{
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	color: black;
+	background-color:#76F6FB;
+	padding: 10px;
+	border: 2px solid #FB702B;
+}
+#web{
+	position: absolute;
+	left: 25%;
+	top:30%;
+	background-color:#FB702B;
+	padding: 2px;
+	border: 2px solid #76F6FB;
+}
+#list1{
+	list-style-type: none;
+	border: none;
+	background: #FB702B;
+	position: absolute;
+}
+#list1 li{
+	padding: 8px 25px;
+	background: none;
+	width: 120%;
+	border-bottom: 2px solid black;
+
+}
+#list1 li:hover{
+	color: #FB702B;
+	font-size: larger;
+}
+#programming{
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	background-color:#76F6FB;
+	border: 2px solid #FB702B;
+}
+#list2{
+	list-style-type: none;
+	border: none;
+	background: none;
+	position: absolute;
+	background-color: #FB702B;
+
+}
+#list2 li{
+	padding: 8px 25px;
+	width: 120%;
+	border-bottom: 2px solid black;
+
+}
+#list2 li:hover{
+	color: #FB702B;
+	font-size: larger;
+}
+body{
+	background-image: url(skill_bimg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+#programmes{
+	color: black;
+	letter-spacing: 3px;
+	font-style: italic;
+}
+#language{
+	color: black;
+	letter-spacing: 3px;
+	font-style: italic;
+}
+#list2 li:nth-child(even) {
+	background: #32F63B;
+	font-style: italic;
+}
+#list2 li:nth-child(odd) {
+	background:#3FE8FC;
+	font-style: italic;
+}
+#list1 li:nth-child(odd) {
+	background:#3FE8FC;
+	font-style: italic;
+}
+#list1 li:nth-child(even) {
+	background: #32F63B;
+	font-style: italic;
+}
+hr{
+	position: absolute;
+	top: 150%;
+	left: 26%;
+}
+#sub{
+	background:  #D3E00A;
+	color: #131313;
+	position: absolute;
+	top:130%;
+	left: 55%;
+	border: none;
+	padding: 8px 15px;
+	font-size: small;
+}
+#sub:hover{
+	cursor: pointer;
+    font-style: italic;
+    background: #1D1D1D;
+	color:  #D70581;
+	
+}

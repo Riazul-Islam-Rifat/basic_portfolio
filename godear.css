@@ -1,0 +1,213 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url('godear_bi.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+#button2{
+	font-size: larger;
+	color: #03e9f4;
+	padding: 8px 15px;
+	background: none;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 45%;
+	left: 40%;
+	border: none;
+	animation: animate1 ease-in-out 1s infinite;
+	/*-webkit-box-reflect:below 15px linear-gradient(transparent,#03e9f4);*/
+
+}
+@keyframes animate1{
+	0%{
+		border-top:1px  solid #03e9f4;
+	}
+	25%{
+		border-right:  1px  solid #03e9f4;
+	}
+	50%{
+		border-bottom: 1px  solid #03e9f4;
+	}
+	75%{
+		border-left: 1px  solid #03e9f4;
+	}
+
+}
+#button2:hover{
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+	            0 0 50px #03e9f4,
+	            0 0 100px #03e9f4,
+	            0 0 200px #03e9f4;
+	cursor: pointer;            
+}
+#button3{
+	font-size: larger;
+	color: #C1FB45;
+	padding: 8px 15px;
+	background: none;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 25%;
+	left: 80%;
+	border: none;
+	animation: animate2 ease-in-out 1s infinite;
+
+}
+@keyframes animate2{
+	0%{
+		border-top:1px  solid #C1FB45;
+	}
+	25%{
+		border-right:  1px  solid #C1FB45;
+	}
+	50%{
+		border-bottom: 1px  solid #C1FB45;
+	}
+	75%{
+		border-left: 1px  solid #C1FB45;
+	}
+
+}
+#button3:hover{
+	background: #C1FB45;
+	color: #050801;
+	box-shadow: 0 0 5px #C1FB45,
+	            0 0 50px #C1FB45,
+	            0 0 100px #C1FB45,
+	            0 0 200px #C1FB45;
+	cursor: pointer;            
+}
+#button4{
+	font-size: larger;
+	color: #FD30A4;
+	padding: 8px 15px;
+	background: none;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 75%;
+	left: 80%;
+	border: none;
+	animation: animate3 ease-in-out 1s infinite;
+
+}
+@keyframes animate3{
+	0%{
+		border-top:1px  solid #FD30A4;
+	}
+	25%{
+		border-right:  1px  solid #FD30A4;
+	}
+	50%{
+		border-bottom: 1px  solid #FD30A4;
+	}
+	75%{
+		border-left: 1px  solid #FD30A4;
+	}
+
+}
+#button4:hover{
+	background: #FD30A4;
+	color: #050801;
+	box-shadow: 0 0 5px #FD30A4,
+	            0 0 50px #FD30A4,
+	            0 0 100px #FD30A4,
+	            0 0 200px #FD30A4;
+	cursor: pointer;            
+}
+#button5{
+	font-size: larger;
+	color: #43FC6F;
+	padding: 8px 15px;
+	background: none;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	border: none;
+	animation: animate4 ease-in-out 1s infinite;
+
+}
+@keyframes animate4{
+	0%{
+		border-top:1px  solid #43FC6F;
+	}
+	25%{
+		border-right:  1px  solid #43FC6F;
+	}
+	50%{
+		border-bottom: 1px  solid #43FC6F;
+	}
+	75%{
+		border-left: 1px  solid #43FC6F;
+	}
+
+}
+#button5:hover{
+	background: #43FC6F;
+	color: #050801;
+	box-shadow: 0 0 5px #43FC6F,
+	            0 0 50px #43FC6F,
+	            0 0 100px #43FC6F,
+	            0 0 200px #43FC6F;
+	cursor: pointer;            
+}
+#button6{
+	font-size: larger;
+	color: #FE664D;
+	padding: 8px 15px;
+	background: none;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 75%;
+	left: 10%;
+	border: none;
+	animation: animate5 ease-in-out 1s infinite;
+
+}
+@keyframes animate5{
+	0%{
+		border-top:1px  solid #FE664D;
+	}
+	25%{
+		border-right:  1px  solid #FE664D;
+	}
+	50%{
+		border-bottom: 1px  solid #FE664D;
+	}
+	75%{
+		border-left: 1px  solid #FE664D;
+	}
+
+}
+#button6:hover{
+	background: #FE664D;
+	color: #050801;
+	box-shadow: 0 0 5px #FE664D,
+	            0 0 50px #FE664D,
+	            0 0 100px #FE664D,
+	            0 0 200px #FE664D;
+	cursor: pointer;            
+}
+h1{
+	color: #FFFFFF;
+	font-style: italic;
+	letter-spacing: 4px;
+	position: absolute;
+	left:40%;
+}

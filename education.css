@@ -1,0 +1,145 @@
+h1{
+	font-style:italic;
+	color: black ;
+	left: 35%;
+	position: absolute;
+	font-size: 300%;
+}
+h1:hover{
+	color: #B70A0A;
+}
+#media{
+	position: absolute;
+	left: 37%;
+	color: black;
+	top: 25%;
+	font-size: larger;
+}
+#jm{
+	position: absolute;
+	left: 37%;
+	color: black;
+	top: 65%;
+	font-size: larger;
+
+}
+#cpscm{
+	position: absolute;
+	left: 37%;
+	color: black;
+	top: 128%;
+	font-size: larger;
+}
+#bracu{
+	position: absolute;
+	left: 37%;
+	color: black;
+	top: 168%;
+	font-size: larger;
+}
+#sub{
+	background:  #D70581;
+	color: #131313;
+	position: absolute;
+	top:205%;
+	left: 57%;
+	border: none;
+	padding: 8px 15px;
+	font-size: small;
+}
+#sub:hover{
+	cursor: pointer;
+    font-style: italic;
+    background: #1D1D1D;
+	color:  #D70581;
+	
+}
+
+hr{
+	
+	position: absolute;
+	top:250%;
+	left: 28%;
+}
+body{
+	background-image: url(education_bimg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+#media{
+	border-top:1px solid #D70581;
+	border-bottom: 1px solid #D70581;
+	padding: 5px 15px;
+}
+#jm{
+	border-top:1px solid #D70581;
+	border-bottom: 1px solid #D70581;
+	padding: 5px 15px;
+}
+#cpscm{
+	border-top:1px solid #D70581;
+	border-bottom: 1px solid #D70581;
+	padding: 5px 15px;
+}
+#bracu{
+	border-top:1px solid #D70581;
+	border-bottom: 1px solid #D70581;
+	padding: 5px 15px;
+}
+#psc{
+	background: #D70581;
+	color:  #1D1D1D;
+	font-style: italic;
+	font-size: larger;
+	padding: 8px 15px;
+}
+#jsc{
+	background: #D70581;
+	color:  #1D1D1D;
+	font-style: italic;
+	font-size: larger;
+	padding: 8px 15px;
+}
+#ssc{
+	background: #D70581;
+	color:  #1D1D1D;
+	font-style: italic;
+	font-size: larger;
+	padding: 8px 15px;
+}
+#hsc{
+	background: #D70581;
+	color:  #1D1D1D;
+	font-style: italic;
+	font-size: larger;
+	padding: 8px 15px;
+}
+#bsc{
+	background: #D70581;
+	color:  #1D1D1D;
+	font-style: italic;
+	font-size: larger;
+	padding: 8px 15px;
+}
+#media:hover{
+	font-style: italic;
+	background: #1D1D1D;
+	color:  #D70581;
+}
+#jm:hover{
+	font-style: italic;
+	background: #1D1D1D;
+	color:  #D70581;
+}
+#cpscm:hover{
+	font-style: italic;
+	background: #1D1D1D;
+	color:  #D70581;
+}
+#bracu:hover{
+	font-style: italic;
+	background: #1D1D1D;
+	color:  #D70581;
+}
